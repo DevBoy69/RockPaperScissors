@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.container {
+	color: #B0E8B0;
+	font-family: arial, sans-serif;
+	border: 1px solid red;
+	min-height: 100vh;
+	background-color: #54BA54;
+}
+h1 {
+	text-align: center;
+	padding: 50px 0px;
+	font-size: 60px;
+}
+.score-container {
+	display: flex;
+	font-size: 20px;
+}
+.score-container > div {
+	
+	flex: 1;
+	text-align: center;
+	padding: 30px 0px;
+}
+.result-container {
+	text-align: center;
+	padding: 1em 0em;
+}
+.result-container > p {
+	line-height: 30px;
+	display: block;
+	margin: 0.5m 0em;
+	font-size: 18px;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+	padding: 1em 0em;
+}
+button {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	border: 2px solid #1A821A;
+	padding: 10px;
+	outline: none;
+	font-size: 18px;
+	background-color: #80D480;
+	margin: 1em;
+}
+button:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+button:active {
+	transform: scale(0.9);
+}
+#rock {
+	width: 125px;
+	height: 125px;
+	background-image: url(images/rps-image.jpg);
+	background-size: 300px;
+	background-position: -189px -45px;
+}
+#paper {
+	width: 125px;
+	height: 125px;
+	background-image: url(images/rps-image.jpg);
+	background-size: 235px;
+	background-position: -25px -110px;
+}
+#scissors {
+	width: 125px;
+	height: 125px;
+	background-image: url(images/rps-image.jpg);
+	background-size: 250px;
+	background-position: 5px 0px;
+}
